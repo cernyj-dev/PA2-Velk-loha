@@ -26,7 +26,8 @@ struct CPosHasher
 };
 
 //------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+// Represents the Spreadsheet of a classic Excel-like program. 
+// Data is stored in an unordered_map where the key a CPos and the value is CNode. CPos is hashed manually. 
 class CSpreadsheet
 {
 public:
@@ -35,8 +36,6 @@ public:
         return SPREADSHEET_CYCLIC_DEPS | SPREADSHEET_FUNCTIONS | SPREADSHEET_FILE_IO | SPREADSHEET_SPEED; //| SPREADSHEET_PARSER;
     }
     CSpreadsheet();
-    // CSpreadsheet(const CSpreadsheet &other);
-    // CSpreadsheet &operator=(const CSpreadsheet &other);
     bool load(std::istream &is);
     bool save(std::ostream &os) const;
     bool setCell(CPos pos,
@@ -49,12 +48,9 @@ public:
     void print() const;
 
 private:
-    // model: mapa <<width, height>, contents> - O(logn) access - might be too slow
-    // 		  2D vector
-    //        unordered_map - O(1) search and access - might be the best option, but ill need my own hash functor and an operator== for CPos
-    std::unordered_map<CPos, CNode, CPosHasher> m_spreadsheet; // done
+    std::unordered_map<CPos, CNode, CPosHasher> m_spreadsheet;
 
-    // used for DFS
+    // used for detecting circular dependencies regarding cell references
     std::unordered_set<std::pair<long long, long long>, pairHasher, pairEqual> visited;
 };
 
