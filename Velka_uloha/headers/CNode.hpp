@@ -14,7 +14,7 @@
 class CSpreadsheet;
 
 using CValue = std::variant<std::monostate, double, std::string>;
-// angle for polymorphism for future AST? CNode -> CNum, CStr, CExp ?
+// Represents the individual Node in the Spreadsheet
 class CNode
 {
 public:
