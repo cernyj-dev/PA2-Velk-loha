@@ -113,7 +113,7 @@ void testing(bool test1, bool test2 = false, bool test3 = false)
 		// std:://cout << "test" << std::endl; //[PRINT]
 		// try
 		// {
-		// 	CPos x("zmetek69");
+		// 	CPos x("bob60");
 		// }
 		// catch (const exception &e)
 		// {
@@ -416,7 +416,7 @@ int main()
 // 	assert(valueMatch(x0.getValue(CPos("B4")), CValue(12544.0)));
 // 	assert(valueMatch(x0.getValue(CPos("B5")), CValue(19458.0)));
 // 	assert(valueMatch(x0.getValue(CPos("B6")), CValue(38916.0)));
-// 	assert(valueMatch(x1.getValue(CPos("B1")), CValue(3612.0))); // zde fail - u x1 jsou A1, A2 i A3 nastavene spravne
+// 	assert(valueMatch(x1.getValue(CPos("B1")), CValue(3612.0))); 
 // 	assert(valueMatch(x1.getValue(CPos("B2")), CValue(-204.0)));
 // 	assert(valueMatch(x1.getValue(CPos("B3")), CValue(4096.0)));
 // 	assert(valueMatch(x1.getValue(CPos("B4")), CValue(17424.0)));
