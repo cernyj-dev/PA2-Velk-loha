@@ -4,6 +4,7 @@
 #include <utility>    // for std::pair
 #include <functional> // for std::hash
 
+// used for the circular cell reference detector in CSpreadsheet
 struct pairHasher
 {
     long long operator()(const std::pair<long long, long long> pair) const
@@ -12,6 +13,7 @@ struct pairHasher
     }
 };
 
+// used for the circular cell reference detector in CSpreadsheet
 struct pairEqual
 {
     bool operator()(const std::pair<long long, long long> &lhs, const std::pair<long long, long long> &rhs) const
