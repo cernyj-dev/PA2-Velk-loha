@@ -1,0 +1,44 @@
+[
+{
+  "directory": "C:/PROG/PA2_PTV/cernyj90/Velka_uloha/build",
+  "command": "C:\\msys64\\mingw32\\bin\\g++.exe   -g -std=gnu++20 -Wall -pedantic -g -o CMakeFiles\\VelkaUloha.dir\\test.cpp.obj -c C:\\PROG\\PA2_PTV\\cernyj90\\Velka_uloha\\test.cpp",
+  "file": "C:/PROG/PA2_PTV/cernyj90/Velka_uloha/test.cpp",
+  "output": "CMakeFiles/VelkaUloha.dir/test.cpp.obj"
+},
+{
+  "directory": "C:/PROG/PA2_PTV/cernyj90/Velka_uloha/build",
+  "command": "C:\\msys64\\mingw32\\bin\\g++.exe   -g -std=gnu++20 -Wall -pedantic -g -o CMakeFiles\\VelkaUloha.dir\\implementations\\CPos.cpp.obj -c C:\\PROG\\PA2_PTV\\cernyj90\\Velka_uloha\\implementations\\CPos.cpp",
+  "file": "C:/PROG/PA2_PTV/cernyj90/Velka_uloha/implementations/CPos.cpp",
+  "output": "CMakeFiles/VelkaUloha.dir/implementations/CPos.cpp.obj"
+},
+{
+  "directory": "C:/PROG/PA2_PTV/cernyj90/Velka_uloha/build",
+  "command": "C:\\msys64\\mingw32\\bin\\g++.exe   -g -std=gnu++20 -Wall -pedantic -g -o CMakeFiles\\VelkaUloha.dir\\implementations\\CNode.cpp.obj -c C:\\PROG\\PA2_PTV\\cernyj90\\Velka_uloha\\implementations\\CNode.cpp",
+  "file": "C:/PROG/PA2_PTV/cernyj90/Velka_uloha/implementations/CNode.cpp",
+  "output": "CMakeFiles/VelkaUloha.dir/implementations/CNode.cpp.obj"
+},
+{
+  "directory": "C:/PROG/PA2_PTV/cernyj90/Velka_uloha/build",
+  "command": "C:\\msys64\\mingw32\\bin\\g++.exe   -g -std=gnu++20 -Wall -pedantic -g -o CMakeFiles\\VelkaUloha.dir\\implementations\\CMyOwnExprBuilder.cpp.obj -c C:\\PROG\\PA2_PTV\\cernyj90\\Velka_uloha\\implementations\\CMyOwnExprBuilder.cpp",
+  "file": "C:/PROG/PA2_PTV/cernyj90/Velka_uloha/implementations/CMyOwnExprBuilder.cpp",
+  "output": "CMakeFiles/VelkaUloha.dir/implementations/CMyOwnExprBuilder.cpp.obj"
+},
+{
+  "directory": "C:/PROG/PA2_PTV/cernyj90/Velka_uloha/build",
+  "command": "C:\\msys64\\mingw32\\bin\\g++.exe   -g -std=gnu++20 -Wall -pedantic -g -o CMakeFiles\\VelkaUloha.dir\\implementations\\CSpreadsheet.cpp.obj -c C:\\PROG\\PA2_PTV\\cernyj90\\Velka_uloha\\implementations\\CSpreadsheet.cpp",
+  "file": "C:/PROG/PA2_PTV/cernyj90/Velka_uloha/implementations/CSpreadsheet.cpp",
+  "output": "CMakeFiles/VelkaUloha.dir/implementations/CSpreadsheet.cpp.obj"
+},
+{
+  "directory": "C:/PROG/PA2_PTV/cernyj90/Velka_uloha/build",
+  "command": "C:\\msys64\\mingw32\\bin\\g++.exe   -g -std=gnu++20 -Wall -pedantic -g -o CMakeFiles\\VelkaUloha.dir\\implementations\\CExpr\\Literals.cpp.obj -c C:\\PROG\\PA2_PTV\\cernyj90\\Velka_uloha\\implementations\\CExpr\\Literals.cpp",
+  "file": "C:/PROG/PA2_PTV/cernyj90/Velka_uloha/implementations/CExpr/Literals.cpp",
+  "output": "CMakeFiles/VelkaUloha.dir/implementations/CExpr/Literals.cpp.obj"
+},
+{
+  "directory": "C:/PROG/PA2_PTV/cernyj90/Velka_uloha/build",
+  "command": "C:\\msys64\\mingw32\\bin\\g++.exe   -g -std=gnu++20 -Wall -pedantic -g -o CMakeFiles\\VelkaUloha.dir\\implementations\\CExpr\\Operators.cpp.obj -c C:\\PROG\\PA2_PTV\\cernyj90\\Velka_uloha\\implementations\\CExpr\\Operators.cpp",
+  "file": "C:/PROG/PA2_PTV/cernyj90/Velka_uloha/implementations/CExpr/Operators.cpp",
+  "output": "CMakeFiles/VelkaUloha.dir/implementations/CExpr/Operators.cpp.obj"
+}
+]

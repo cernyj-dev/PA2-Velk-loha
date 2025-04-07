@@ -1,0 +1,3 @@
+C:/PROG/PA2_PTV/cernyj90/Velka_uloha/build/CMakeFiles/VelkaUloha.dir
+C:/PROG/PA2_PTV/cernyj90/Velka_uloha/build/CMakeFiles/edit_cache.dir
+C:/PROG/PA2_PTV/cernyj90/Velka_uloha/build/CMakeFiles/rebuild_cache.dir

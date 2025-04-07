@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\VelkaUloha.dir/objects.a
+C:\msys64\mingw32\bin\ar.exe qc CMakeFiles\VelkaUloha.dir/objects.a @CMakeFiles\VelkaUloha.dir\objects1.rsp
+C:\msys64\mingw32\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\VelkaUloha.dir/objects.a -Wl,--no-whole-archive -o VelkaUloha.exe -Wl,--out-implib,libVelkaUloha.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\VelkaUloha.dir\linkLibs.rsp
