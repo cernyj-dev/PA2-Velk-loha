@@ -15,7 +15,7 @@ long long calculate_width(const string &source)
     return result - 1;
 }
 
-// thought I might use this function somewhere else than for the instances of CPos - didnt make it a method for that reason
+// Used to process the (for example "A1") position into a number to use later on in the unordered_map Spreadsheet
 void process_cpos(const string_view &source, string &norm_str, long long &width, long long &height)
 {
 
@@ -23,8 +23,6 @@ void process_cpos(const string_view &source, string &norm_str, long long &width,
     {
         throw invalid_argument("CPos input is empty: CPos constructor");
     }
-    // first : copy into a normal string? To use transform for example [low_PROBLEM] - i wont now
-    // second : normalize it [low_PROBLEM]
     string tmp_cpos; // tmp - before assigning it directly to the member string, i gotta check it first and not change the member string if something goes bad
     bool letters_parsed = false;
     bool one_letter_parsed = false; // i dont really want to have a standard for cycle - check if something was parsed, if a letter wasnt parsed, it should be an error
@@ -149,7 +147,7 @@ void CPos::setNormStr(const string &str)
 }
 
 //------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+// Normalizing the processed position from a number into the string version again
 void CPos::mNormStrRecreation()
 {
     m_norm_str = "";
